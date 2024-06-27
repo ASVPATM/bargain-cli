@@ -29,4 +29,6 @@ Designed to have a simple interface and make it easy to search for bargains eith
 
 **install requirements with pip**
 
+**Run User_Interact Py file First**
+
 Slowly working on this because im trying to find the time but I've made most of the groundwork for it
