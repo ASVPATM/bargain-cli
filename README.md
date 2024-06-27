@@ -27,5 +27,6 @@ Designed to have a simple interface and make it easy to search for bargains eith
 - No pictures but gives the user the option to open listing in browser (not implemented)
 - Choice to see one-three listings a page (not implementd)
 
+**install requirements with pip**
 
 Slowly working on this because im trying to find the time but I've made most of the groundwork for it
