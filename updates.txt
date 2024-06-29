@@ -1,0 +1,8 @@
+**June 28 Commit**
+- Altered craiglslist.py, ultimate.py, and config.py
+- Made it possible to ask user if they want to keep searching and displays 3 items
+  at a time until the page reaches the end (only for craiglist
+
+
+- need to change structure and how to organize it better so that its easier to 
+  integrate the rest of the websites
