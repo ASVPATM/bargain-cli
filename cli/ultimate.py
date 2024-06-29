@@ -186,20 +186,28 @@ def handle_query():
 
 def search_until_stop():
     #keep_searching_input = str(input("To continue searching, press y, otherwise press n")).lower()
-
-    while True:
-        try:
-            keep_searching_input = str(input("\nTo continue searching, press y, otherwise press n: ")).lower()
-            if keep_searching_input == 'y' or keep_searching_input == 'n':
-                config.looking_answer = keep_searching_input
-                break
-            else:
-                print("Please select an answer between Y or N")
-        except ValueError:
-            print("Enter Correct Values Only Please") 
+        while True:
+            try:
+                keep_searching_input = str(input("\nTo continue searching, press y, otherwise press n: ")).lower()
+                if keep_searching_input == 'y' or keep_searching_input == 'n':
+                    config.looking_answer = keep_searching_input
+                    break
+                else:
+                    print("Please select an answer between Y or N")
+            except ValueError:
+                print("Enter Correct Values Only Please") 
+    
 
     
-    
+def all_together():
+    while config.looking_answer == 'y':
+        if config.transport_method == 1:
+            craigslist.fetchPage(config.query, config.keep_looking_bottom, config.keep_looking_top)
+            search_until_stop()
+            
+        config.keep_looking_bottom+=3
+        config.keep_looking_top+=3
+        
 
 
 #MAIN CODE HERE
@@ -210,9 +218,10 @@ def main():
     city()
     handle_query()
     move_Over()
-    search_until_stop()
+    all_together()
     #print(config.actual_city, config.city_number, config.max_price, config.min_price, config.indexes)
-    craigslist.main()
+
+    #search_until_stop()
     
    
 
