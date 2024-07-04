@@ -6,3 +6,9 @@
 
 - need to change structure and how to organize it better so that its easier to 
   integrate the rest of the websites
+
+
+**July 3**
+- Altered Main Py file to make it more modular
+- Getting rid of bad style and adding some customization 
+- Prety much finished cragslist search, so now just apply same stuff to other webistes (pretty much)
