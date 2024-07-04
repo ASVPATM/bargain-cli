@@ -1,9 +1,0 @@
-cdifflib
-bs4
-itertools
-unidecode
-sys
-os
-urllib
-urllib3
-webbrowser
