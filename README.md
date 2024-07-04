@@ -8,7 +8,11 @@ CLI For Online Marketplaces
 - Ebay
 
 **July 3**
-  **ONLY LOCAL OPTION/CRAIGSLIST IS WORKING AT THIS TIME**
+
+ ********ONLY LOCAL OPTION/CRAIGSLIST IS WORKING AT THIS TIME********
+
+
+...
 
 Designed to have a simple interface and make it easy to search for bargains either near you, or available for shipping.
 
