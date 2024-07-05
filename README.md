@@ -12,7 +12,9 @@ CLI For Online Marketplaces
  ********ONLY LOCAL OPTION/CRAIGSLIST IS WORKING AT THIS TIME********
 
 
-...
+**July 4**
+- Using JSON to store listings to be able to easily access, open in browser, etc
+- Added option to open in webbrowser
 
 Designed to have a simple interface and make it easy to search for bargains either near you, or available for shipping.
 
