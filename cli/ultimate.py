@@ -255,7 +255,7 @@ def keepLooking():
             confirm_input = str(input("\nAre you sure? (Press Y or N): ")).lower()
             not_confirmed = True
             if confirm_input == 'y':
-                switched_query_input = config.query
+                config.query = switched_query_input
                 break
         except ValueError:
             print("Please enter valid values")
