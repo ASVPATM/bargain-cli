@@ -16,6 +16,8 @@ CLI For Online Marketplaces
 - Using JSON to store listings to be able to easily access, open in browser, etc
 - Added option to open in webbrowser
 
+**Making Craiglist CLI standalone repository**
+
 Designed to have a simple interface and make it easy to search for bargains either near you, or available for shipping.
 
 **Main Idea For The Project**
